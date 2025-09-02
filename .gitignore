@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# Ignorar arxius de configuració secrets del backend
+/_php_secrets/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
